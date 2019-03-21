@@ -19,17 +19,11 @@ We implement a similar multimodal system which makes use of video as well as aud
 
 ## Results
 
-Train Set : Lip Speakers, Test Set : Lip Speakers
+Top-1 Accuracy
 
-* Audio Sub-network : 70.51%
-* Video Sub-network : 37.50%
-* Combined Network : 41.12%
-
-Train Set : Lip Speakers, Test Set : Volunteers
-
-* Audio Sub-network : 53.20%
-* Video Sub-network : 25.67%
-* Combined Network : 31.95%
+* Audio Sub-network : 78.51%
+* Video Sub-network : 45.5%
+* Combined Network : 52.12%
 
 ## Model Evaluation:
 * The model can be evaluated using EvaluateModelDemo.py script under combinedSR. It needs model file as input. On running, It starts by recording video of person speaking a sentence, cuts it into frames focused on speakers' lips,  passing them to the model and outputs phoneme predictions
