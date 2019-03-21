@@ -13,9 +13,9 @@ We implement a similar multimodal system which makes use of video as well as aud
 
 * downloadTCDTIMIT - This folder contains the code for downloading the data from TCDTIMIT
 * DataPreprocessing - This folder contains the code for preprocessing the dataset.
-* audio_networks - This folder contain the code for audio sub-network.
-* LipReading - This folder contain the code for video sub-network
-* CombinedSR - This folder contains the code for network making predictions combining both audio and video features
+* LipReading_Audio_Subnetwork - This folder contain the code for audio sub-network.
+* LipReading_Video_Subnetwork - This folder contain the code for video sub-network
+* CombinedSR Network - This folder contains the code for network making predictions combining both audio and video features
 
 ## Results
 
