@@ -34,8 +34,7 @@ The most important folders and files are:
 1. `fileDirOps.py`:  This is used to filter the extracted database files for grayscale resized mouth images and the phoneme-frame txt files. The phoneme corresponding to each image was added to the image name. 
 The files were then copied to another directory, and pickled for later usage in neural networks.
 
-1. other files:
-    1. `EGillenThesis.pdf`:   the masters thesis of Eoin Gillen, Trinity College Dublin, who helped create the database. This contains lots of info about how the database was made.    
+1. other files:  
     1. `phonemeList.txt`:     contains a list of all possible phonemes (39). This is somewhat simplified from the full english phoneme set, see EGillenThesis.pdf. These are also in CMU_..._phones.txt  
     1. `CMU_Pronunciation_Dictionary`: can be used to map phonemes to words or the other way around. See for example `https://github.com/jimkang/word-phoneme-map`  
     1. `countNbPhonemes.py`:  counts the number of times the database contains each phoneme. Useful for estimating how well you'll be able to train.  
