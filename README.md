@@ -1,4 +1,4 @@
-# Project "Read My Lips":
+# Project "Read My Lips"
 
 ## Description
 
